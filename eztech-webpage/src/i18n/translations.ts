@@ -7,7 +7,7 @@ export const translations = {
       products: 'Products',
       blog: 'Blog',
       contact: 'Contact Us',
-      getQuote: 'Contact Us'
+      getQuote: 'Get Quote'
     },
     hero: {
       title: 'Revolutionizing Businesses with Cutting-Edge Technology',

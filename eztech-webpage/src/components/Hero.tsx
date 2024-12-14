@@ -53,7 +53,7 @@ export function Hero() {
       </div>
 
       <button 
-        onClick={() => scrollTo('services')}
+        onClick={() => scrollTo('about')}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer"
       >
         <ChevronDown className="h-8 w-8 text-white" />

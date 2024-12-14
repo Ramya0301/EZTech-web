@@ -10,7 +10,7 @@ export const contactPage = async (req, res) => {
 
         const mailOptions = {
             from: email,
-            to: "consult.eztech@gmail.com",
+            to: "vs.eztech@gmail.com",
             subject: 'New Contact Form Submission',
             html: `
             <div style="font-family: Arial, sans-serif; color: #333; background-color: #f4f4f4; padding: 20px;">
@@ -18,7 +18,7 @@ export const contactPage = async (req, res) => {
         <tr>
             <td style="text-align: center; padding: 20px;">
                 <!-- Logo -->
-                <div>EZTECH</div>
+                <div>EZ Tech</div>
                 <h1 style="color: #4CAF50; font-size: 24px; margin: 10px 0;">New Contact Form Submission</h1>
             </td>
         </tr>

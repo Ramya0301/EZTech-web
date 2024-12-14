@@ -1,19 +1,14 @@
 import React from "react";
 import { useLanguage } from "../contexts/LanguageContext";
-import { MailIcon } from "lucide-react";
+import {  MailIcon } from "lucide-react";
 import logo from '../assets/ez logo.jpg'
-import { useScrollTo } from "../hooks/useScrollTo"; // Add this import
 
 export const Footer: React.FC = () => {
   const { t } = useLanguage();
-  const scrollTo = useScrollTo(); // Add this hook
 
   const handleEmailClick = () => {
     window.location.href = "mailto:vs.eztech@gmail.com";
   };
-
-  // Map section names to their IDs
-  const sections = ["about", "contact"];
 
   return (
     <footer className="bg-white text-gray-700">
@@ -22,12 +17,12 @@ export const Footer: React.FC = () => {
         <div className="flex flex-wrap justify-between">
           {/* Company Section */}
           <div className="w-full sm:w-1/4 mb-6 flex flex-col text-center items-start">
-            <div className="flex gap-3 ">
-              <div className="w-10 h-10">
-                <img src={logo}/>
-              </div>
-              <div className="text-4xl font-bold text-gray-800 mb-3">{t("footer.title")}</div>
+          <div className="flex gap-3 ">
+            <div className="w-10 h-10">
+              <img src={logo}/>
             </div>
+            <div className="text-4xl font-bold text-gray-800 mb-3">{t("footer.title")}</div>
+          </div>
             <p className="text-sm text-gray-500">{t("footer.subtitle")}</p>
           </div>
 
@@ -35,18 +30,16 @@ export const Footer: React.FC = () => {
           <div className="w-full sm:w-1/4 text-center mb-6">
             <h3 className="text-lg font-bold text-gray-800 mb-3 inline-block border-b-2 border-gray-800">{t("footer.company_title")}</h3>
             <ul className="space-y-2">
-              {sections.map((section, index) => (
+              {["About Us",  "Contact Us"].map((_, index) => (
                 <li key={index}>
-                  <button 
-                    onClick={() => scrollTo(section)}
-                    className="hover:text-blue-500"
-                  >
+                  <button className="hover:text-blue-500">
                     {t(`footer.company.${index}`)}
                   </button>
                 </li>
               ))}
             </ul>
           </div>
+
 
           {/* Connect With Us */}
           <div className="w-full sm:w-1/4 mb-6 text-center">
@@ -61,6 +54,7 @@ export const Footer: React.FC = () => {
               </button>
             </div>
           </div>
+
         </div>
       </div>
 
