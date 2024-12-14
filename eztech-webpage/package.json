@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    "start": "vite preview --host --port 5173"
+    "preview": "vite preview",
+    "start": "vite preview --host --port 5173",
+    "start-prod": "pm2 start npm --name 'frontend' -- start && pm2 start npm --name 'backend' -- start --prefix ../backend"
   },
   "dependencies": {
     "axios": "^1.7.9",
