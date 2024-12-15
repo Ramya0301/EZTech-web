@@ -57,10 +57,12 @@ export function Products() {
                   </ul><button
   className="mt-8 px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
   onClick={() => {
-    if (index === 0 || index === 1) {
-      navigate(`/${product.name}`); // Navigate only for index 0 and 1
+    if (index === 0) {
+      window.open('https://ezchat.co.in/manual/Russian.pdf', '_blank'); // Opens Google in a new tab
+    } else if (index === 1) {
+      navigate(`/${product.name}`); // Maintains existing navigation for index 1
     } else {
-      alert("This feature is coming soon!"); // Prevent navigation for other indices
+      alert("This feature is coming soon!"); // Maintains alert for other indices
     }
   }}
 >
