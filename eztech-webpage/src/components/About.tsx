@@ -15,9 +15,12 @@ export function About() {
             {t('about.title')}
             </h2>
             <div className="space-y-6 text-lg text-gray-600">
-              <p className="leading-relaxed">{t('about.subtitle1')}
+              <p className="leading-relaxed text-justify">{t('about.subtitle1')}
               </p>
-              <p className="leading-relaxed">{t('about.subtitle2')}
+              <p className="leading-relaxed text-justify">{t('about.subtitle2')}
+              </p>
+              <p className="leading-relaxed text-gray-900 font-semibold text-justify">
+                {t('about.highlightedSentence')}
               </p>
               <p className="font-semibold text-gray-900">
               {t('about.minititle')}
