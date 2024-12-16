@@ -31,7 +31,7 @@ export function Services() {
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl lg:text-5xl mb-4">
             {t("services.title")}
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16 text-center">
             Comprehensive technology solutions to transform your business
           </p>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -51,7 +51,7 @@ export function Services() {
                     <h3 className="mt-4 text-xl font-semibold text-gray-900">
                       {title}
                     </h3>
-                    <p className="mt-2 text-gray-600 text-sm">
+                    <p className="mt-2 text-gray-600 text-sm text-justify">
                     {t(`services.items.${service.name}.subtitle`)}
                     </p>
                   </div>
