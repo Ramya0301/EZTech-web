@@ -62,8 +62,8 @@ export function LoadingScreen() {
         {/* Tagline */}
         <p className={`tagline max-w-2xl text-center px-4 ${showTagline ? 'opacity-100' : 'opacity-0'}`}>
           {language === 'en'
-            ? "Ready to elevate your business with next-level technology?"
-            : "Готовы вывести свой бизнес на новый уровень с передовыми технологиями?"}
+            ? "Ready to elevate your business with next-level technology powered by AI?"
+            : "Готовы вывести свой бизнес на новый уровень с передовыми технологиями, которые работают на основе AI?"}
         </p>
       </div>
 
