@@ -17,17 +17,18 @@ export const translations = {
     },
     about:{
       title:'About Us',
-      subtitle1:'At EZ Tech, we simplify innovation. From digital transformation to AI-powered solutions, we empower businesses to work smarter, adapt faster, make data-driven decisions and achieve more. Our expert team delivers seamless cloud migrations, actionable data analytics, and custom machine learning models tailored to your goals.',
-      subtitle2:"With innovative products like EZChat for intelligent communication, EZ Dash for insightful analytics, and EZ Note for efficient workflow management, we help businesses visualize insights and enhance productivity. At EZ Tech, technology isn't just a tool — it's the key to unlocking your potential.",
+      subtitle1:'At EZ Tech, we make innovation easy. We empower businesses to work smarter, adapt faster, make data-driven decisions, and achieve more by harnessing the power of AI. With over 15 years of combined experience at leading AI and consulting firms worldwide, our expert team helps businesses thrive by leveraging tomorrow’s technologies, tailored to your unique goals. Our expertise spans across seamless cloud migrations, actionable data analytics, and custom AI and machine learning solutions — ensuring your business stays ahead in a competitive landscape.',
+      subtitle2:"Our flagship products are crafted to help businesses harness the latest AI advancements. Ask anything and gain insights with our advanced AI agent, EZChat. Develop dashboards and harness powerful analytics with EZ Dash, and streamline workflow management with EZ Note. Together, these products empower businesses to visualize insights and enhance productivity. At EZ Tech, technology isn't just a tool — it's the key to unlocking your potential.",
+      highlightedSentence:"At EZ Tech, technology isn't just a tool — it's the key to unlocking your potential.",
       minititle:"Let's transform the future, together.",
       box1_title:'Simplify Innovation',
       box1_subtitle:'Making complex technology accessible and effective',
       box2_title:'Smart Solutions',
-      box2_subtitle:'Empowering businesses with intelligent technology',
+      box2_subtitle:'Empowering businesses with intelligent AI technology',
       box3_title:'AI Excellence',
       box3_subtitle:'Cutting-edge AI solutions for real-world challenges',
       box4_title:'Future Ready',
-      box4_subtitle:"Preparing businesses for tomorrow's challenges",
+      box4_subtitle:"Preparing businesses leveraging AI for tomorrow's challenges",
     },
     services:{
       title:'Our Services',
@@ -35,7 +36,7 @@ export const translations = {
       items:{
         digital_transformation:{
           title:'Digital Transformation',
-          subtitle:'We guide businesses through every step of their digital journey, from process optimization to implementing innovative technologies that reshape their operations.',
+          subtitle:'From improving internal processes to adopting innovative technologies, we guide you step-by-step toward a more digital, efficient business.',
         },
         cloud_migration:{
           title:'Cloud Migration',
@@ -43,11 +44,11 @@ export const translations = {
         },
         ml_ai:{
           title:'Machine Learning and AI Solutions',
-          subtitle:'We build machine learning models for forecasting, analytics, and customer insights while delivering AI solutions to automate processes and enhance experiences in real time.',
+          subtitle:'Whether you need predictive models to forecast sales or AI-driven tools to enhance customer support, we build solutions that fit your goals.',
         },
         data_analytics:{
-          title:'Data Analytics',
-          subtitle:'Our data experts transform raw data into actionable insights that drive better decision-making and improve operational efficiency.',
+          title:'Web Scraping & Data Analytics',
+          subtitle:'We collect data from any websites as per your needs and transform it into clear insights, helping you understand market trends and make informed decisions.',
         },
         dashboarding:{
           title:'Dashboarding',
@@ -55,7 +56,7 @@ export const translations = {
         },
         consulting:{
           title:'Consulting',
-          subtitle:'Our experienced consultants work closely with clients to provide tailored strategies, technical expertise, and industry insights that align with their business objectives.',
+          subtitle:'Our experts work closely with you to understand your unique challenges, recommend strategies, and provide the technical support you need to succeed.',
         }
       }
     },
@@ -67,8 +68,8 @@ export const translations = {
       items: {
         EZChat: {
           title: 'EZ Chat',
-          description: 'AI Assistant chatbot that revolutionizes customer support and internal communications with advanced natural language processing.',
-          features: ['24/7 Customer Support', 'Multi-language Support', 'Custom Training']
+          description: 'AI-powered chatbot that integrates globally leading AI models, custom tools, and domain-specific knowledge bases to deliver intelligent assistance tailored to your needs.',
+          features: ['Multi-language & 24/7 Customer Support', 'Custom Tool Development', 'Domain Knowledge Base']
         },
         'EZDash': {
           title: 'EZ Dash',
@@ -129,22 +130,23 @@ export const translations = {
     hero: {
       title: 'Революционные Технологии для Бизнеса',
       subtitle: 'Цифровая трансформация с помощью ИИ, облачных решений и машинного обучения',
-      exploreServices: 'Изучить Услуги',
+      exploreServices: 'Изучить Услуги',  
       contactUs: 'Связаться с Нами'
     },
     about: {
       title: 'О Нас',
-      subtitle1: 'В EZ Tech мы упрощаем инновации. От цифровой трансформации до решений, основанных на ИИ, мы помогаем бизнесу работать умнее, адаптироваться быстрее, принимать решения на основе данных и достигать большего. Наша экспертная команда предоставляет бесшовные облачные миграции, действенную аналитическую обработку данных и индивидуальные модели машинного обучения, адаптированные к вашим целям.',
-      subtitle2: 'С такими инновационными продуктами, как EZChat для интеллектуальной коммуникации, EZ Dash для аналитики и EZ Note для эффективного управления рабочими процессами, мы помогаем бизнесу визуализировать данные и повышать продуктивность. В EZ Tech технологии — это не просто инструмент, это ключ к раскрытию вашего потенциала.',
+      subtitle1: 'В EZ Tech мы делаем инновации простыми. Мы даем компаниям возможность работать умнее, быстрее адаптироваться, принимать решения на основе данных и достигать большего, используя возможности искусственного интеллекта. С более чем 15-летним общим опытом работы в ведущих ИИ-компаниях и консалтинговых компаниях по всему миру, наша команда экспертов помогает бизнесу процветать, используя технологии завтрашнего дня, адаптированные к вашим уникальным целям. Наш опыт охватывает плавную миграцию в облако, действенный анализ данных, а также индивидуальные решения в области искусственного интеллекта и машинного обучения, которые гарантируют, что ваш бизнес останется впереди в конкурентной среде.',
+      subtitle2: 'Наши флагманские продукты созданы, чтобы помочь компаниям использовать последние достижения в области искусственного интеллекта. Задавайте любые вопросы и получайте ценную информацию с помощью нашего продвинутого ИИ-агента EZChat. Создавайте информационные панели и используйте мощную аналитику с помощью EZ Dash, а также оптимизируйте управление рабочими процессами с помощью EZ Note. Вместе эти продукты позволяют предприятиям визуализировать ценную информацию и повысить производительность. В EZ Tech технологии — это не просто инструмент, это ключ к раскрытию вашего потенциала».',
+      highlightedSentence: 'В EZ Tech технологии — это не просто инструмент, это ключ к раскрытию вашего потенциала.',
       minititle: 'Давайте преобразим будущее вместе.',
       box1_title: 'Упростите Инновации',
       box1_subtitle: 'Делаем сложные технологии доступными и эффективными',
       box2_title: 'Умные Решения',
-      box2_subtitle: 'Помогаем бизнесу с помощью интеллектуальных технологий',
+      box2_subtitle: 'Расширение возможностей бизнеса с помощью интеллектуальных технологий искусственного интеллекта',
       box3_title: 'Искусственный Интеллект на Высшем Уровне',
       box3_subtitle: 'Передовые ИИ-решения для реальных задач',
       box4_title: 'Готовность к Будущему',
-      box4_subtitle: 'Подготовка бизнеса к вызовам завтрашнего дня'
+      box4_subtitle: 'Подготовка предприятий, использующих ИИ, к решению задач завтрашнего дня'
 
     },
     services: {
@@ -153,7 +155,7 @@ export const translations = {
       items: {
         digital_transformation: {
           title: 'Цифровая Трансформация',
-          subtitle: 'Мы сопровождаем бизнес на каждом этапе цифрового пути: от оптимизации процессов до внедрения инновационных технологий, которые меняют их работу.',
+          subtitle: 'От улучшения внутренних процессов до внедрения инновационных технологий — мы шаг за шагом ведем вас к более цифровому и эффективному бизнесу.',
         },
         cloud_migration: {
           title: 'Миграция в Облако',
@@ -161,11 +163,11 @@ export const translations = {
         },
         ml_ai: {
           title: 'Машинное Обучение и Решения на Базе ИИ',
-          subtitle: 'Мы создаем модели машинного обучения для прогнозирования, аналитики и понимания клиентов, а также предлагаем ИИ-решения для автоматизации процессов и улучшения взаимодействия в реальном времени.',
+          subtitle: 'Если вам нужны прогностические модели для прогнозирования продаж или инструменты на основе искусственного интеллекта для улучшения поддержки клиентов, мы создаем решения, соответствующие вашим целям.',
         },
         data_analytics: {
-          title: 'Аналитика Данных',
-          subtitle: 'Наши эксперты по данным превращают сырые данные в полезные инсайты, которые способствуют принятию лучших решений и повышению операционной эффективности.',
+          title: 'Веб-скрапинг и Аналитика Данных',
+          subtitle: 'Мы собираем данные с любых веб-сайтов в соответствии с вашими потребностями и преобразуем их в четкую информацию, помогая вам понимать тенденции рынка и принимать обоснованные решения.',
         },
         dashboarding: {
           title: 'Создание Дашбордов',
@@ -173,7 +175,7 @@ export const translations = {
         },
         consulting: {
           title: 'Консалтинг',
-          subtitle: 'Наши опытные консультанты тесно работают с клиентами, предлагая индивидуальные стратегии, техническую экспертизу и отраслевые инсайты, которые соответствуют их бизнес-целям.',
+          subtitle: 'Наши эксперты тесно сотрудничают с вами, чтобы понять ваши уникальные проблемы, порекомендовать стратегии и предоставить техническую поддержку, необходимую для достижения успеха.',
         },
       },
     },
@@ -187,8 +189,8 @@ export const translations = {
       items: {
         EZChat: {
           title: 'EZ Chat',
-          description: 'ИИ-чатбот, который революционизирует клиентскую поддержку и внутренние коммуникации с помощью продвинутой обработки естественного языка.',
-          features: ['Поддержка 24/7', 'Многоязычная Поддержка', 'Индивидуальное Обучение']
+          description: 'Чат-бот на базе искусственного интеллекта, который объединяет ведущие мировые модели искусственного интеллекта, специальные инструменты и базы знаний для конкретной предметной области для предоставления интеллектуальной помощи, адаптированной к вашим потребностям.',
+          features: ['Многоязычная и 24/7 поддержка', 'Разработка индивидуальных инструментов', 'База знаний для конкретной предметной области']
         },
         'EZDash': {
           title: 'EZ Dash',
