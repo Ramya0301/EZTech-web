@@ -21,7 +21,7 @@ export function Products() {
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl lg:text-5xl">
             {t("products.title")}
           </h2>
-          <p className="mt-4 text-lg text-gray-600">{t("products.subtitle")}</p>
+          <p className="mt-4 text-lg text-gray-600 text-center">{t("products.subtitle")}</p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-3">
@@ -44,10 +44,10 @@ export function Products() {
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     {title}
                   </h3>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-gray-600 mb-6 text-justify">
                     {t(`products.items.${product.name}.description`)}
                   </p>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 text-justify">
                     {product.features.map((_, idx) => (
                       <li key={idx} className="flex items-center text-gray-700">
                         <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mr-2" />
@@ -58,7 +58,7 @@ export function Products() {
   className="mt-8 px-6 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
   onClick={() => {
     if (index === 0) {
-      window.open('https://ezchat.co.in/manual/Russian.pdf', '_blank'); // Opens Google in a new tab
+      window.open('https://ezchat.com.ru', '_blank'); // Opens Google in a new tab
     } else if (index === 1) {
       navigate(`/${product.name}`); // Maintains existing navigation for index 1
     } else {
