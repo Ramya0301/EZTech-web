@@ -18,7 +18,7 @@ export const translations = {
     about:{
       title:'About Us',
       subtitle1:'At EZ Tech, we make innovation easy. We empower businesses to work smarter, adapt faster, make data-driven decisions, and achieve more by harnessing the power of AI. With over 15 years of combined experience at leading AI and consulting firms worldwide, our expert team helps businesses thrive by leveraging tomorrow’s technologies, tailored to your unique goals. Our expertise spans across seamless cloud migrations, actionable data analytics, and custom AI and machine learning solutions — ensuring your business stays ahead in a competitive landscape.',
-      subtitle2:"Our flagship products are crafted to help businesses harness the latest AI advancements. Ask anything and gain insights with our advanced AI agent, EZChat. Develop dashboards and harness powerful analytics with EZ Dash, and streamline workflow management with EZ Note. Together, these products empower businesses to visualize insights and enhance productivity. At EZ Tech, technology isn't just a tool — it's the key to unlocking your potential.",
+      subtitle2:"Our flagship products are crafted to help businesses harness the latest AI advancements. Ask anything and gain insights with our advanced AI agent, EZChat. Develop dashboards and harness powerful analytics with EZ Dash, and streamline workflow management with EZ Note. Together, these products empower businesses to visualize insights and enhance productivity.",
       highlightedSentence:"At EZ Tech, technology isn't just a tool — it's the key to unlocking your potential.",
       minititle:"Let's transform the future, together.",
       box1_title:'Simplify Innovation',
